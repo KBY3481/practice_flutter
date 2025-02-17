@@ -1,6 +1,7 @@
 import 'package:dronefield_app/common/component/custom_text_form_field.dart';
 import 'package:dronefield_app/user/view/login_screen.dart';
 import 'package:flutter/material.dart';
+import '../common/const/colors.dart';
 
 void main() {
   runApp(
@@ -15,6 +16,7 @@ class _App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(
+        focusColor: primaryColor,
         fontFamily: 'NotoSans',
       ),
       debugShowCheckedModeBanner: false,
